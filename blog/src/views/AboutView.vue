@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>About TBrownCooking</h1>
+    <p>Description of the first feature.</p>
   </div>
 </template>
