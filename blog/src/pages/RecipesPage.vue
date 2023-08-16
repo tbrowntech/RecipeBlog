@@ -5,19 +5,19 @@
       <div class="col-md-6 mb-4" v-for="post in blogPosts" :key="post.id">
         <div class="card text-aqua">
           <img
-            :src="post.imageUrl"
+            :src="require(`@/assets/${post.imageFileName}`)"
             class="card-img-top"
-            alt="Swedish Meatballs"
+            alt="recipe image"
           />
           <div class="card-body">
             <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
             <p class="card-text">{{ post.excerpt }}</p>
-            <!--<router-link
+            <router-link
               :to="{ name: 'PostDetails', params: { id: post.id } }"
               class="btn btn-primary"
             >
               Read More
-            </router-link>-->
+            </router-link>
           </div>
         </div>
       </div>
@@ -35,14 +35,14 @@ export default {
           id: 1,
           title: "Swedish Meatball Sauce",
           excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
-          imageUrl: "@/assets/SwedishMeatballs.jpg",
+          imageFileName: "SwedishMeatballs.jpg", // Update to just the filename
         },
         {
           id: 2,
           title: "Another Blog Post",
           excerpt:
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          imageUrl: "path/to/image2.jpg",
+          imageFileName: "logo.png", // Update to just the filename
         },
         // Add more blog posts here
       ],
