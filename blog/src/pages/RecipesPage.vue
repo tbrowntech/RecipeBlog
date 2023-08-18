@@ -2,7 +2,11 @@
   <div class="container mt-4">
     <h1 class="text-center mb-4 text-aqua">Welcome to My Recipe Blog</h1>
     <div class="row">
-      <div class="col-md-6 mb-4" v-for="post in blogPosts" :key="post.id">
+      <div
+        class="col-md-6 mb-4 text-center"
+        v-for="post in blogPosts"
+        :key="post.id"
+      >
         <div class="card text-aqua">
           <img
             :src="require(`@/assets/${post.imageFileName}`)"
