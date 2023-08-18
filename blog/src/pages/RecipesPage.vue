@@ -6,7 +6,7 @@
         <div class="card text-aqua">
           <img
             :src="require(`@/assets/${post.imageFileName}`)"
-            class="card-img-top"
+            class="card-img-top blog-thumbnail"
             alt="recipe image"
           />
           <div class="card-body">
@@ -35,14 +35,14 @@ export default {
           id: 1,
           title: "Swedish Meatball Sauce",
           excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
-          imageFileName: "SwedishMeatballs.jpg", // Update to just the filename
+          imageFileName: "SwedishMeatballs.jpg",
         },
         {
           id: 2,
-          title: "Another Blog Post",
+          title: "Air Fryer Meatballs",
           excerpt:
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          imageFileName: "logo.png", // Update to just the filename
+            "Have them alone or mix them in with the swedish meatball recipe.",
+          imageFileName: "fried-meatballs.jpg",
         },
         // Add more blog posts here
       ],

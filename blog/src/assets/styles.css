@@ -6,3 +6,8 @@
     color: #015c5c;
     font-weight: bold;
 }
+
+.blog-thumbnail {
+  max-width: 150px;
+  height: auto;
+}

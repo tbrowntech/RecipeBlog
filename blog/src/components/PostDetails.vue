@@ -3,12 +3,14 @@
     <div class="card text-aqua">
       <img
         :src="require(`@/assets/${post.imageFileName}`)"
-        class="card-img-top post-image"
+        class="card-img-top post-image blog-thumbnail"
         alt="recipe image"
       />
       <div class="card-body">
         <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
         <p class="card-text">{{ post.excerpt }}</p>
+        <div class="card-text">{{ post.content }}</div>
+        <!-- Display the content -->
       </div>
     </div>
   </div>
@@ -35,14 +37,13 @@ export default {
   },
   methods: {
     fetchPostData() {
-      // Replace this with your actual API call or data retrieval logic
-      // Example: Fetch data from an API using this.id
-      this.post = {
-        id: this.id,
-        title: "Swedish Meatball Sauce",
-        excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
-        imageFileName: "SwedishMeatballs.jpg",
-        content: `
+      if (this.id === 1) {
+        this.post = {
+          id: this.id,
+          title: "Swedish Meatball Sauce",
+          excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
+          imageFileName: "SwedishMeatballs.jpg",
+          content: `
           Sauce:
           2 cups beef stock
           2 cups evaporated milk
@@ -59,8 +60,19 @@ export default {
           minutes. Taste and adjust seasonings to desired taste. Stir in cooked 
           meatballs and desired pasta.
         `,
-        // Add more post data as needed
-      };
+          // Add more post data as needed
+        };
+      } else if (this.id === 2) {
+        this.post = {
+          id: this.id,
+          title: "Air Fryer Meatballs",
+          excerpt:
+            "Have them alone or mix them in with the swedish meatball recipe.",
+          imageFileName: "fried-meatballs.jpg",
+          content: `
+          Recipe follows...`,
+        };
+      }
     },
   },
 };
