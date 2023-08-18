@@ -20,7 +20,6 @@
 export default {
   name: "PostDetails",
   props: {
-    // Receive the id parameter from the route
     id: {
       type: Number,
       required: true,
@@ -28,7 +27,7 @@ export default {
   },
   data() {
     return {
-      post: null, // Placeholder for the blog post data
+      post: null,
     };
   },
   beforeRouteEnter(to, from, next) {
@@ -75,6 +74,5 @@ export default {
       vm.post = post;
     });
   },
-  methods: {},
 };
 </script>
