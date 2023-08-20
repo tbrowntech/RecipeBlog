@@ -18,7 +18,7 @@
               <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
               <p class="card-text">{{ post.excerpt }}</p>
               <router-link
-                :to="{ name: 'PostDetails', params: { id: post.id } }"
+                :to="{ name: 'PostDetails', params: { id: +post.id } }"
                 class="btn btn-primary"
               >
                 Read More
@@ -42,6 +42,7 @@ export default {
           title: "Swedish Meatball Sauce",
           excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
           imageFileName: "SwedishMeatballs.jpg",
+          content: "Sauce: ...",
         },
         {
           id: 2,
@@ -49,6 +50,7 @@ export default {
           excerpt:
             "Have them alone or mix them in with the swedish meatball recipe.",
           imageFileName: "fried-meatballs.jpg",
+          content: "Recipe follows...",
         },
         // Add more blog posts here
       ],

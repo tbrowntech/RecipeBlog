@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import axios from "axios";
+// import axios from "axios";
 
 export default {
   name: "PostDetails",
@@ -37,8 +37,11 @@ export default {
   methods: {
     async fetchPostData() {
       try {
-        const response = await axios.get("/posts.json");
-        const posts = response.data;
+        const response = await fetch("/posts.json");
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const posts = await response.json();
 
         this.post = posts.find((post) => post.id === this.id);
       } catch (error) {
