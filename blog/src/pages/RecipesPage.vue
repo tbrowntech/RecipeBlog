@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: "BlogPage",
+  name: "RecipesPage",
   data() {
     return {
       blogPosts: [
