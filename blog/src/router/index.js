@@ -23,7 +23,9 @@ const routes = [
     path: "/post/:id",
     name: "PostDetails",
     component: () => import("../components/PostDetails.vue"),
-    props: true,
+    props: (route) => {
+      return { ...route.params, id: Number(route.params.id) };
+    }
   },
 ];
 
