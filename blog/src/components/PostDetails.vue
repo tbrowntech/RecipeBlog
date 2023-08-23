@@ -9,15 +9,18 @@
       <div class="card-body">
         <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
         <p class="card-text">{{ post.excerpt }}</p>
-        <div class="card-text">{{ post.content }}</div>
+        <!--<div class="card-text">{{ post.content }}</div>-->
+        <div
+          class="card-text"
+          v-html="post.content"
+          style="white-space: pre-line"
+        ></div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-// import axios from "axios";
-
 export default {
   name: "PostDetails",
   props: {
@@ -35,18 +38,42 @@ export default {
     this.fetchPostData();
   },
   methods: {
-    async fetchPostData() {
-      try {
-        const response = await fetch("/posts.json");
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const posts = await response.json();
+    fetchPostData() {
+      const blogPosts = [
+        {
+          id: 1,
+          title: "Swedish Meatball Sauce",
+          excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
+          imageFileName: "SwedishMeatballs.jpg",
+          content: `Sauce: <br/> 
+                    2 cups beef stock <br>
+                    2 cups evaporated milk <br>
+                    6 tablespoons flour <br>
+                    2 tablespoons soy sauce <br>
+                    1 tablespoon Worcestershire sauce <br>
+                    2 teaspoons black pepper <br>
+                    1 teaspoon dried rosemary <br>
+                    ½ cup parmesan cheese <br>
+                    16 ounces meatballs <br><br>
+                    Whisk together stock, milk, flour, soy sauce, worcestershire 
+                    sauce, pepper and rosemary in a large saucepan over medium 
+                    heat, until smooth. Cook, stirring occasionally, until 
+                    thickened, about 10-15 minutes. Taste and adjust seasonings 
+                    to desired taste. Stir in cooked meatballs and desired 
+                    pasta.`,
+        },
+        {
+          id: 2,
+          title: "Air Fryer Meatballs",
+          excerpt:
+            "Have them alone or mix them in with the Swedish meatball recipe.",
+          imageFileName: "fried-meatballs.jpg",
+          content: "Recipe follows...",
+        },
+        // Add more posts here
+      ];
 
-        this.post = posts.find((post) => post.id === this.id);
-      } catch (error) {
-        console.error("Error fetching post data:", error);
-      }
+      this.post = blogPosts.find((post) => post.id === this.id);
     },
   },
 };

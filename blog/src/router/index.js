@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "../pages/HomePage.vue";
 import AboutPage from "../pages/AboutPage.vue";
 import RecipesPage from "../pages/RecipesPage.vue";
+import PostDetails from "../components/PostDetails.vue";
 
 const routes = [
   {
@@ -22,8 +23,10 @@ const routes = [
   {
     path: "/post/:id",
     name: "PostDetails",
-    component: () => import("../components/PostDetails.vue"),
-    props: true,
+    component: PostDetails,
+    props: (route) => {
+      return { ...route.params, id: Number(route.params.id) };
+    },
   },
 ];
 
