@@ -68,7 +68,7 @@ export default {
           excerpt:
             "Have them alone or mix them in with the Swedish meatball recipe.",
           imageFileName: "fried-meatballs.jpg",
-          content: "Recipe follows...",
+          content: "Recipe in progress...",
         },
         // Add more posts here
       ];
