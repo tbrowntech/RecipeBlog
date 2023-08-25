@@ -45,7 +45,7 @@ export default {
           title: "Swedish Meatball Sauce",
           excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
           imageFileName: "SwedishMeatballs.jpg",
-          content: `Sauce: <br/> 
+          content: `Sauce: <br> 
                     2 cups beef stock <br>
                     2 cups evaporated milk <br>
                     6 tablespoons flour <br>
@@ -68,7 +68,22 @@ export default {
           excerpt:
             "Have them alone or mix them in with the Swedish meatball recipe.",
           imageFileName: "fried-meatballs.jpg",
-          content: "Recipe in progress...",
+          content: `Ingredients: <br>
+                    1 pound ground meat (I use turkey) <br>
+                    ½ cup bread crumbs <br>
+                    ½ cup grated parmesan cheese <br>
+                    ¼ cup milk <br>
+                    2 cloves garlic (minced) <br>
+                    ½ teaspoon Italian seasoning <br>
+                    ¾ teaspoon salt <br>
+                    4 teaspoons pepper <br>
+                    BBQ sauce/Chik-fil-a sauce to taste <br><br>
+                    Instructions: <br>
+                    Combine all ingredients together in a bowl and stir/sift 
+                    until thoroughly mixed. Roll into desired ball size 
+                    (ping pong/golf ball sized) and place them evenly spaced in 
+                    air fryer tray. <br>
+                    Cook at 375 for 15 minutes <br>`,
         },
         // Add more posts here
       ];

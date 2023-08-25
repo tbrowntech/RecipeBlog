@@ -1,9 +1,16 @@
 <template>
   <div class="about">
     <h3 class="text-aqua text-center">About TBrownTechCooking</h3>
-    <p>
+    <p class="text-center">
       I'm a software engineer by trade, but I need something to do to get me
       away from the computer every once in a while
+    </p>
+    <p class="text-center">
+      Have a recipe that you would like me to try out? Send it to me via this
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdoJ2R_L8wod7TueoIyipDA-hzIlF3w1tG4GWj-Ko-SItrq-A/viewform?usp=sf_link"
+        >submission form</a
+      >.
     </p>
     <br />
     <hr />
@@ -21,6 +28,17 @@
         scrolling="no"
         frameborder="0"
         src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=tabaron-20&language=en_US&marketplace=amazon&region=US&placement=B08R6KMBQT&asins=B08R6KMBQT&linkId=8125c5b6e2c2f827d274526137fc8ede&show_border=true&link_opens_in_new_window=true"
+      ></iframe>
+    </div>
+    <div class="products">
+      <iframe
+        sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
+        style="width: 120px; height: 240px"
+        marginwidth="0"
+        marginheight="0"
+        scrolling="no"
+        frameborder="0"
+        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=tabaron-20&language=en_US&marketplace=amazon&region=US&placement=B09WCXY5TM&asins=B09WCXY5TM&linkId=3ec68ebebefca483e67ac67e0c6de500&show_border=true&link_opens_in_new_window=true"
       ></iframe>
     </div>
   </div>
