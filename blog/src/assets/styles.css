@@ -20,3 +20,15 @@
   text-align: center;
   overflow: auto;
 }
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  flex: 0 0 calc(25% - 10px);
+  margin-bottom: 20px;
+}
+
