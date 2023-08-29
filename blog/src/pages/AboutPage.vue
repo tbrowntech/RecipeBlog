@@ -9,6 +9,7 @@
       Have a recipe that you would like me to try out? Send it to me via this
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSdoJ2R_L8wod7TueoIyipDA-hzIlF3w1tG4GWj-Ko-SItrq-A/viewform?usp=sf_link"
+        target="_blank"
         >submission form</a
       >.
     </p>

@@ -51,7 +51,7 @@ export default {
           title: "Alfredo Sauce",
           excerpt:
             "Alfredo sauce that mimics the taste of sauce from Olive Garden.",
-          imageFileName: "SwedishMeatballs.jpg",
+          imageFileName: "AlfredoSauce.jpg",
           // content: ""
         },
       ],
