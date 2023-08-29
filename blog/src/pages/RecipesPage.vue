@@ -16,10 +16,23 @@
               <router-link
                 :to="{ name: 'PostDetails', params: { id: +post.id } }"
                 class="btn btn-primary"
+                @click="selectedPost = post"
               >
                 Read More
               </router-link>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-overlay" v-if="selectedPost">
+      <div class="modal">
+        <div class="modal-content">
+          <button @click="selectedPost = null" class="close-button">×</button>
+          <div class="modal-card">
+            <!-- Display selected post's details here -->
+            <h2>{{ selectedPost.title }}</h2>
+            <p>{{ selectedPost.content }}</p>
           </div>
         </div>
       </div>
@@ -57,6 +70,7 @@ export default {
           // content: ""
         },
       ],
+      selectedPost: null,
     };
   },
 };

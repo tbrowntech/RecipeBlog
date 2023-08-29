@@ -1,5 +1,6 @@
 <template>
   <div class="container mt-4" v-if="post">
+    <!-- Display the selected post's details -->
     <div class="card text-aqua">
       <img
         :src="require(`@/assets/${post.imageFileName}`)"
@@ -9,12 +10,27 @@
       <div class="card-body">
         <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
         <p class="card-text">{{ post.excerpt }}</p>
-        <!--<div class="card-text">{{ post.content }}</div>-->
         <div
           class="card-text"
           v-html="post.content"
           style="white-space: pre-line"
         ></div>
+      </div>
+    </div>
+
+    <!-- Modal overlay for displaying selected post in the center -->
+    <div class="modal-overlay" v-if="selectedPost">
+      <div class="modal">
+        <div class="modal-content">
+          <!-- Close button for the modal -->
+          <button @click="selectedPost = null" class="close-button">×</button>
+
+          <!-- Display selected post's details in the modal -->
+          <div class="modal-card">
+            <h2>{{ selectedPost.title }}</h2>
+            <p>{{ selectedPost.content }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

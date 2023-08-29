@@ -44,7 +44,8 @@
   overflow: hidden; /* Hide any overflow content */
 }
 
-.post-overlay {
+/* Style for modal overlay */
+.modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -55,12 +56,20 @@
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: opacity 0.3s;
-  opacity: 0;
-  pointer-events: none;
 }
 
-.post-container {
+/* Style for modal container */
+.modal {
+  /* Define width and other styles as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Center vertically */
+}
+
+/* Style for modal content */
+.modal-content {
   background-color: white;
   padding: 20px;
   max-width: 90%;
@@ -68,8 +77,15 @@
   border-radius: 5px;
 }
 
-.post-overlay.active {
-  opacity: 1;
-  pointer-events: auto;
+/* Close button style */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
 }
 
