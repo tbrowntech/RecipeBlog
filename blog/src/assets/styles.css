@@ -32,3 +32,15 @@
   margin-bottom: 20px;
 }
 
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Adjust the minmax width as needed */
+  gap: 15px; /* Adjust the gap between cards as needed */
+}
+
+.card {
+  width: 350px;
+  max-height: 350px; /* Adjust the max height as needed */
+  overflow: hidden; /* Hide any overflow content */
+}
+
