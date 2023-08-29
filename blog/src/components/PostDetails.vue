@@ -3,7 +3,7 @@
     <div class="card text-aqua">
       <img
         :src="require(`@/assets/${post.imageFileName}`)"
-        class="card-img-top post-image blog-thumbnail"
+        class="card-img-top post-image blog-thumbnail mx-auto"
         alt="recipe image"
       />
       <div class="card-body">
