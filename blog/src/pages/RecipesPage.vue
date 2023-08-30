@@ -13,7 +13,10 @@
             <div class="card-body text-center">
               <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
               <p class="card-text">{{ post.excerpt }}</p>
-              <router-link to="/swedishmeatballs" class="btn btn-primary">
+              <router-link
+                :to="{ name: post.routeName }"
+                class="btn btn-primary"
+              >
                 Read More
               </router-link>
             </div>
@@ -51,6 +54,7 @@ export default {
           title: "Swedish Meatballs",
           excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
           imageFileName: "SwedishMeatballs.jpg",
+          routeName: "SwedishMeatballs",
         },
         {
           id: 2,
