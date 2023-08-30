@@ -44,4 +44,17 @@
   overflow: hidden; /* Hide any overflow content */
 }
 
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+  }
+
+  .card {
+    width: 100%; /* Full width on smaller screens */
+    max-height: none; /* No maximum height */
+  }
+}
+
 
