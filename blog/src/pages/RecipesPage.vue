@@ -12,7 +12,9 @@
             />
             <div class="card-body text-center">
               <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
-              <p class="card-text">{{ post.excerpt }}</p>
+              <div class="card-excerpt">
+                <p class="card-text">{{ post.excerpt }}</p>
+              </div>
               <router-link
                 :to="{ name: post.routeName }"
                 class="btn btn-primary"
@@ -58,9 +60,9 @@ export default {
         },
         {
           id: 4,
-          title: "Creamy Herbed Porkchops",
+          title: "Creamy Herbed Pork Chops",
           excerpt:
-            "Creamy sauce to pour over porkchops, steak, etc. Goes well on pasta.",
+            "Creamy sauce to pour over pork chops, steak, etc. Goes well on pasta.",
           imageFileName: "noImage.png",
           routeName: "CreamyHerbedPorkChops",
         },

@@ -16,9 +16,15 @@
 .card-body {
   width: 100%;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: 0; /* Change this value to adjust the gap */
   text-align: center;
-  overflow: auto;
+  overflow-y: auto;
+}
+
+.card-excerpt {
+  max-height: 150px; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  margin-bottom: 10px;
 }
 
 .products {
@@ -40,8 +46,16 @@
 
 .card {
   width: 350px;
-  max-height: 350px; /* Adjust the max height as needed */
-  overflow: hidden; /* Hide any overflow content */
+  height: 350px;
+  margin-bottom: 10px; /* Change this value to adjust the gap */
+  overflow: hidden;
+}
+
+.card-title {
+  font-size: 1.5rem; /* You can adjust the font size as needed */
+  white-space: nowrap; /* Prevents text from wrapping to multiple lines */
+  overflow: hidden; /* Hides any overflowing content */
+  text-overflow: ellipsis; /* Displays an ellipsis (...) for overflowed text */
 }
 
 /* Responsive styles for smaller screens */
@@ -52,8 +66,9 @@
   }
 
   .card {
-    width: 100%; /* Full width on smaller screens */
-    max-height: none; /* No maximum height */
+    width: 100%;
+    height: auto; /* Remove the maximum height */
+    margin: 10px 0; /* Adjust margins for spacing */
   }
 }
 
