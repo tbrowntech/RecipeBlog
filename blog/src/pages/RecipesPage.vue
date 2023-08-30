@@ -61,7 +61,7 @@ export default {
           title: "Creamy Herbed Porkchops",
           excerpt:
             "Creamy sauce to pour over porkchops, steak, etc. Goes well on pasta.",
-          imageFileName: "AlfredoSauce.jpg",
+          imageFileName: "noImage.png",
           routeName: "CreamyHerbedPorkChops",
         },
       ],
