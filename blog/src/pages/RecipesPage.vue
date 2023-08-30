@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-4">
-    <h1 class="text-center mb-4 text-aqua">Welcome to My Recipe Blog</h1>
+    <h1 class="text-center mb-4 text-aqua">Recipe Blog</h1>
     <div class="row">
       <div class="card-grid">
         <div class="col-md-4 mb-4" v-for="post in blogPosts" :key="post.id">
