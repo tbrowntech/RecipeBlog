@@ -24,22 +24,6 @@
         </div>
       </div>
     </div>
-    <div class="modal-overlay" v-if="selectedPost">
-      <div class="modal">
-        <div class="modal-content">
-          <button @click="closeModal" class="close-button">×</button>
-          <div class="modal-card">
-            <!-- Display selected post's details in the modal -->
-            <h2>{{ selectedPost.title }}</h2>
-            <div
-              class="modal-text"
-              v-html="selectedPost.content"
-              style="white-space: pre-line"
-            ></div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
