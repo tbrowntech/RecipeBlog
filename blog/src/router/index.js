@@ -4,6 +4,9 @@ import AboutPage from "../pages/AboutPage.vue";
 import RecipesPage from "../pages/RecipesPage.vue";
 import PostDetails from "../components/PostDetails.vue";
 import SwedishMeatballs from "../components/SwedishMeatballs.vue";
+import AlfredoSauce from "../components/AlfredoSauce.vue";
+import AirFryerMeatballs from "../components/AirFryerMeatballs.vue";
+import CreamyHerbedPorkChops from "../components/CreamyHerbedPorkChops";
 
 const routes = [
   {
@@ -33,6 +36,21 @@ const routes = [
     path: "/swedishmeatballs",
     name: "SwedishMeatballs",
     component: SwedishMeatballs,
+  },
+  {
+    path: "/alfredosauce",
+    name: "AlfredoSauce",
+    component: AlfredoSauce,
+  },
+  {
+    path: "/airfryermeatballs",
+    name: "AirFryerMeatballs",
+    component: AirFryerMeatballs,
+  },
+  {
+    path: "/creamyherbedporkchops",
+    name: "CreamyHerbedPorkChops",
+    component: CreamyHerbedPorkChops,
   },
 ];
 

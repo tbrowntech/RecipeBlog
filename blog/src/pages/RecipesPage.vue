@@ -62,6 +62,7 @@ export default {
           excerpt:
             "Have them alone or mix them in with the swedish meatball recipe.",
           imageFileName: "fried-meatballs.jpg",
+          routeName: "AirFryerMeatballs",
         },
         {
           id: 3,
@@ -69,6 +70,7 @@ export default {
           excerpt:
             "Alfredo sauce that mimics the taste of sauce from Olive Garden.",
           imageFileName: "AlfredoSauce.jpg",
+          routeName: "AlfredoSauce",
         },
         {
           id: 4,
@@ -76,6 +78,7 @@ export default {
           excerpt:
             "Creamy sauce to pour over porkchops, steak, etc. Goes well on pasta.",
           imageFileName: "AlfredoSauce.jpg",
+          routeName: "CreamyHerbedPorkChops",
         },
       ],
       selectedPost: null,
