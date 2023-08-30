@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <h3 class="text-aqua text-center">Air Fryer Meatballs</h3>
+    <img class="post-img" src="../assets/fried-meatballs.jpg" />
     <p class="text-center">
       Ingredients: <br />
       1 pound ground meat (I use turkey) <br />

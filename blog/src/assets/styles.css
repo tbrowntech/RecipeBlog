@@ -58,6 +58,14 @@
   text-overflow: ellipsis; /* Displays an ellipsis (...) for overflowed text */
 }
 
+.post-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: auto;
+}
+
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 768px) {
   .card-grid {
