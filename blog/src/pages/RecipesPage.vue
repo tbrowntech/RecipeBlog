@@ -28,11 +28,15 @@
     <div class="modal-overlay" v-if="selectedPost">
       <div class="modal">
         <div class="modal-content">
-          <button @click="selectedPost = null" class="close-button">×</button>
+          <button @click="closeModal" class="close-button">×</button>
           <div class="modal-card">
-            <!-- Display selected post's details here -->
+            <!-- Display selected post's details in the modal -->
             <h2>{{ selectedPost.title }}</h2>
-            <p>{{ selectedPost.content }}</p>
+            <div
+              class="modal-text"
+              v-html="selectedPost.content"
+              style="white-space: pre-line"
+            ></div>
           </div>
         </div>
       </div>
@@ -51,7 +55,6 @@ export default {
           title: "Swedish Meatballs",
           excerpt: "Delicious sauce to put over meatballs, pasta, etc.",
           imageFileName: "SwedishMeatballs.jpg",
-          // content: "Sauce: ...",
         },
         {
           id: 2,
@@ -59,7 +62,6 @@ export default {
           excerpt:
             "Have them alone or mix them in with the swedish meatball recipe.",
           imageFileName: "fried-meatballs.jpg",
-          // content: "Recipe follows...",
         },
         {
           id: 3,
@@ -67,11 +69,18 @@ export default {
           excerpt:
             "Alfredo sauce that mimics the taste of sauce from Olive Garden.",
           imageFileName: "AlfredoSauce.jpg",
-          // content: ""
         },
       ],
       selectedPost: null,
     };
+  },
+  methods: {
+    openModal(post) {
+      this.selectedPost = post;
+    },
+    closeModal() {
+      this.selectedPost = null;
+    },
   },
 };
 </script>
