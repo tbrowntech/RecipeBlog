@@ -3,6 +3,7 @@ import HomePage from "../pages/HomePage.vue";
 import AboutPage from "../pages/AboutPage.vue";
 import RecipesPage from "../pages/RecipesPage.vue";
 import PostDetails from "../components/PostDetails.vue";
+import SwedishMeatballs from "../components/SwedishMeatballs.vue";
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
     props: (route) => {
       return { ...route.params, id: Number(route.params.id) };
     },
+  },
+  {
+    path: "/swedishmeatballs",
+    name: "SwedishMeatballs",
+    component: SwedishMeatballs,
   },
 ];
 

@@ -13,11 +13,7 @@
             <div class="card-body text-center">
               <h2 class="card-title text-30bfbf">{{ post.title }}</h2>
               <p class="card-text">{{ post.excerpt }}</p>
-              <router-link
-                :to="{ name: 'PostDetails', params: { id: +post.id } }"
-                class="btn btn-primary"
-                @click="selectedPost = post"
-              >
+              <router-link to="/swedishmeatballs" class="btn btn-primary">
                 Read More
               </router-link>
             </div>
@@ -68,6 +64,13 @@ export default {
           title: "Alfredo Sauce",
           excerpt:
             "Alfredo sauce that mimics the taste of sauce from Olive Garden.",
+          imageFileName: "AlfredoSauce.jpg",
+        },
+        {
+          id: 4,
+          title: "Creamy Herbed Porkchops",
+          excerpt:
+            "Creamy sauce to pour over porkchops, steak, etc. Goes well on pasta.",
           imageFileName: "AlfredoSauce.jpg",
         },
       ],

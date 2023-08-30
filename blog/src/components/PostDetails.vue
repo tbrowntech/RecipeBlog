@@ -17,22 +17,6 @@
         ></div>
       </div>
     </div>
-
-    <!-- Modal overlay for displaying selected post in the center -->
-    <div class="modal-overlay" v-if="selectedPost">
-      <div class="modal">
-        <div class="modal-content">
-          <!-- Close button for the modal -->
-          <button @click="selectedPost = null" class="close-button">×</button>
-
-          <!-- Display selected post's details in the modal -->
-          <div class="modal-card">
-            <h2>{{ selectedPost.title }}</h2>
-            <p>{{ selectedPost.content }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
