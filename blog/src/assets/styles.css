@@ -1,3 +1,7 @@
+body {
+  background-color: #dde2e2;
+}
+
 .text-aqua {
     color: #30bfbf;
   }
@@ -49,6 +53,7 @@
   height: 350px;
   margin-bottom: 10px; /* Change this value to adjust the gap */
   overflow: hidden;
+  background-color: azure;
 }
 
 .card-title {
