@@ -18,5 +18,26 @@
       pepper to taste. Serve over hot pasta, in place of pizza sauce, or for
       dipping. It's great with shrimp or grilled chicken as well.
     </p>
+    <button class="btn btn-primary" @click="goBack">Back to Recipes</button>
   </div>
 </template>
+
+<script>
+export default {
+  name: "IndividualBlogPost",
+  data() {
+    return {
+      post: {}, // Individual blog post data
+    };
+  },
+  methods: {
+    goBack() {
+      this.$router.push({ name: "recipes" }); // Navigate back to main recipes page
+    },
+  },
+  created() {
+    // Fetch individual blog post data using this.$route.params.id
+    // Assign the data to this.post
+  },
+};
+</script>

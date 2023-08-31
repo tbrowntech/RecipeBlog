@@ -19,5 +19,26 @@
       adjust seasonings to desired taste. Stir in cooked meatballs and desired
       pasta.
     </p>
+    <button class="btn btn-primary" @click="goBack">Back to Recipes</button>
   </div>
 </template>
+
+<script>
+export default {
+  name: "IndividualBlogPost",
+  data() {
+    return {
+      post: {}, // Individual blog post data
+    };
+  },
+  methods: {
+    goBack() {
+      this.$router.push({ name: "recipes" }); // Navigate back to main recipes page
+    },
+  },
+  created() {
+    // Fetch individual blog post data using this.$route.params.id
+    // Assign the data to this.post
+  },
+};
+</script>
