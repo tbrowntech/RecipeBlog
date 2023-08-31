@@ -22,7 +22,7 @@
       once. Cook and stir until thickened and bubbly. Stir in water. Return
       chops to skillet and heat through. To serve, spoon sauce over chops.
       <br /><br />
-      Note: I like to substitute pork chops for steak sometimes. <br />
+      Note: I like to substitute steak for the pork chops sometimes. <br />
     </p>
     <button class="btn btn-primary" @click="goBack">Back to Recipes</button>
   </div>
