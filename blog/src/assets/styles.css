@@ -14,7 +14,8 @@ body {
 .blog-thumbnail {
   max-width: 150px;
   height: auto;
-  padding-top: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
 .card-body {
@@ -69,6 +70,7 @@ body {
   margin-right: auto;
   width: 25%;
   height: auto;
+  border-radius: 15px;
 }
 
 /* Responsive styles for smaller screens */
