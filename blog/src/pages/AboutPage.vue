@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h3 class="text-aqua text-center">About TBrownTechCooking</h3>
+    <h3 class="text-aqua text-center">About TBrownTech Cooking</h3>
     <p class="text-center">
       I'm a software engineer by trade, but I need something to do to get me
       away from the computer every once in a while
