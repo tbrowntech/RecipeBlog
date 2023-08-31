@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="alfredo">
     <h3 class="text-aqua text-center">Alfredo Sauce</h3>
     <img class="post-img" src="../assets/AlfredoSauce.jpg" />
     <p class="text-center">

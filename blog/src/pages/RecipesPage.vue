@@ -66,6 +66,13 @@ export default {
           imageFileName: "noImage.png",
           routeName: "CreamyHerbedPorkChops",
         },
+        {
+          id: 5,
+          title: "Scalloped Potatoes",
+          excerpt: "Tasty scalloped potatoes, especially the cheesy version.",
+          imageFileName: "noImage.png",
+          routeName: "ScallopedPotatoes",
+        },
       ],
       selectedPost: null,
     };

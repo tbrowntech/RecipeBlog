@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="meatballs">
     <h3 class="text-aqua text-center">Air Fryer Meatballs</h3>
     <img class="post-img" src="../assets/fried-meatballs.jpg" />
     <p class="text-center">

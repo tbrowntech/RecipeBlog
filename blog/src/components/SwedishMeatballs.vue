@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="swedish">
     <h3 class="text-aqua text-center">Swedish Meatballs</h3>
     <img class="post-img" src="../assets/SwedishMeatballs.jpg" />
     <p class="text-center">

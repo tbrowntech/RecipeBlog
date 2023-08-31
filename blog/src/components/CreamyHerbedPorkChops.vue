@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="pork-chops">
     <h3 class="text-aqua text-center">Creamy Herbed Pork Chops</h3>
     <p class="text-center">
       Ingredients: <br />
