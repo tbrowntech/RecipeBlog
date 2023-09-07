@@ -1,7 +1,7 @@
 <template>
   <div class="alfredo">
     <h3 class="text-aqua text-center">Alfredo Sauce</h3>
-    <img class="post-img" src="../assets/AlfredoSauce.jpg" />
+    <img class="post-img" src="../assets/AlfredoSauce.png" />
     <p class="text-center">
       Ingredients: <br />
       1 evaporated milk <br />

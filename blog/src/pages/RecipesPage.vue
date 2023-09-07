@@ -47,7 +47,7 @@ export default {
           title: "Air Fryer Meatballs",
           excerpt:
             "Have them alone or mix them in with the swedish meatball recipe.",
-          imageFileName: "fried-meatballs.jpg",
+          imageFileName: "AirFryerMeatballs.png",
           routeName: "AirFryerMeatballs",
         },
         {
@@ -55,7 +55,7 @@ export default {
           title: "Alfredo Sauce",
           excerpt:
             "Alfredo sauce that mimics the taste of sauce from Olive Garden.",
-          imageFileName: "AlfredoSauce.jpg",
+          imageFileName: "AlfredoSauce.png",
           routeName: "AlfredoSauce",
         },
         {
@@ -63,14 +63,14 @@ export default {
           title: "Creamy Herbed Pork Chops",
           excerpt:
             "Creamy sauce to pour over pork chops, steak, etc. Goes well on pasta.",
-          imageFileName: "noImage.png",
+          imageFileName: "CreamyHerbedPorkchops.png",
           routeName: "CreamyHerbedPorkChops",
         },
         {
           id: 5,
           title: "Scalloped Potatoes",
           excerpt: "Tasty scalloped potatoes, especially the cheesy version.",
-          imageFileName: "noImage.png",
+          imageFileName: "ScallopedPotatoes.png",
           routeName: "ScallopedPotatoes",
         },
       ],

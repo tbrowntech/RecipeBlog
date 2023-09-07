@@ -1,6 +1,7 @@
 <template>
   <div class="pork-chops">
     <h3 class="text-aqua text-center">Creamy Herbed Pork Chops</h3>
+    <img class="post-img" src="../assets/CreamyHerbedPorkchops.png" />
     <p class="text-center">
       Ingredients: <br />
       4 pork chops, cut ¾ thick <br />
