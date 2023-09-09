@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { inject } from "@vercel/analytics";
 import HomePage from "../pages/HomePage.vue";
 import AboutPage from "../pages/AboutPage.vue";
 import RecipesPage from "../pages/RecipesPage.vue";
@@ -8,6 +9,8 @@ import AlfredoSauce from "../components/AlfredoSauce.vue";
 import AirFryerMeatballs from "../components/AirFryerMeatballs.vue";
 import CreamyHerbedPorkChops from "../components/CreamyHerbedPorkChops";
 import ScallopedPotatoes from "../components/ScallopedPotatoes.vue";
+
+inject();
 
 const routes = [
   {
