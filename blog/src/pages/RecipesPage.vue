@@ -73,6 +73,22 @@ export default {
           imageFileName: "ScallopedPotatoes.png",
           routeName: "ScallopedPotatoes",
         },
+        {
+          id: 6,
+          title: "Oatmeal Cookies",
+          excerpt:
+            "These yummy cookies can be used as a base for many different combinations.",
+          imageFileName: "OatmealCookies.png",
+          routeName: "OatmealCookies",
+        },
+        {
+          id: 7,
+          title: "No Bake Cookies",
+          excerpt:
+            "A chocolate goodness that is quick and easy to make without heating up the house",
+          imageFileName: "noImage.png",
+          routeName: "NoBakeCookies",
+        },
       ],
       selectedPost: null,
     };

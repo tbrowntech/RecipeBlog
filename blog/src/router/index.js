@@ -9,6 +9,8 @@ import AlfredoSauce from "../components/AlfredoSauce.vue";
 import AirFryerMeatballs from "../components/AirFryerMeatballs.vue";
 import CreamyHerbedPorkChops from "../components/CreamyHerbedPorkChops";
 import ScallopedPotatoes from "../components/ScallopedPotatoes.vue";
+import OatmealCookies from "../components/OatmealCookies.vue";
+import NoBakeCookies from "../components/NoBakeCookies.vue";
 
 inject();
 
@@ -60,6 +62,16 @@ const routes = [
     path: "/scallopedpotatoes",
     name: "ScallopedPotatoes",
     component: ScallopedPotatoes,
+  },
+  {
+    path: "/oatmealcookies",
+    name: "OatmealCookies",
+    component: OatmealCookies,
+  },
+  {
+    path: "/nobakecookies",
+    name: "NoBakeCookies",
+    component: NoBakeCookies,
   },
 ];
 
