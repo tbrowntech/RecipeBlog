@@ -1,7 +1,11 @@
 <template>
   <div class="meatballs">
     <h3 class="text-aqua text-center">Air Fryer Meatballs</h3>
-    <img class="post-img" src="../assets/AirFryerMeatballs.png" />
+    <img
+      class="post-img"
+      src="../assets/AirFryerMeatballs.png"
+      alt="Air Fryer Meatballs"
+    />
     <p class="text-center">
       Ingredients: <br />
       1 pound ground meat (I use turkey) <br />

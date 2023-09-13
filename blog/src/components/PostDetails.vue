@@ -67,7 +67,7 @@ export default {
           title: "Air Fryer Meatballs",
           excerpt:
             "Have them alone or mix them in with the Swedish meatball recipe.",
-          imageFileName: "fried-meatballs.jpg",
+          imageFileName: "AirFryerMeatballs.jpg",
           content: `Ingredients: <br>
                     1 pound ground meat (I use turkey) <br>
                     ½ cup bread crumbs <br>

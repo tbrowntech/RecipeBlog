@@ -1,7 +1,11 @@
 <template>
   <div class="scalloped">
     <h3 class="text-aqua text-center">Scalloped Potatoes</h3>
-    <img class="post-img" src="../assets/ScallopedPotatoes.png" />
+    <img
+      class="post-img"
+      src="../assets/ScallopedPotatoes.png"
+      alt="Scalloped Potatoes"
+    />
     <p class="text-center">
       Ingredients: <br />
       ½ cup chopped onion <br />

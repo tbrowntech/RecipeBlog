@@ -86,7 +86,7 @@ export default {
           title: "No Bake Cookies",
           excerpt:
             "A chocolate goodness that is quick and easy to make without heating up the house",
-          imageFileName: "noImage.png",
+          imageFileName: "NoBakeCookies.jpg",
           routeName: "NoBakeCookies",
         },
       ],

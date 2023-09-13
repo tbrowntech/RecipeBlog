@@ -1,7 +1,11 @@
 <template>
   <div class="swedish">
     <h3 class="text-aqua text-center">Swedish Meatballs</h3>
-    <img class="post-img" src="../assets/SwedishMeatballs.jpg" />
+    <img
+      class="post-img"
+      src="../assets/SwedishMeatballs.jpg"
+      alt="Swedish Meatballs"
+    />
     <p class="text-center">
       Sauce: <br />
       2 cups beef stock <br />

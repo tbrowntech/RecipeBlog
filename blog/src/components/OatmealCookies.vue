@@ -1,7 +1,11 @@
 <template>
   <div class="oatmealcookies">
     <h3 class="text-aqua text-center">Oatmeal Chocolate Chip Cookies</h3>
-    <img class="post-img" src="../assets/OatmealCookies.png" />
+    <img
+      class="post-img"
+      src="../assets/OatmealCookies.png"
+      alt="Oatmeal Chocolate Chip Cookies"
+    />
     <p class="text-center">
       Ingredients: <br />
       1 cup butter <br />

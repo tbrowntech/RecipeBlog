@@ -1,7 +1,11 @@
 <template>
   <div class="nobakecookies">
     <h3 class="text-aqua text-center">No Bake Cookies</h3>
-    <img class="post-img" src="../assets/noImage.png" />
+    <img
+      class="post-img"
+      src="../assets/NoBakeCookies.jpg"
+      alt="No Bake Cookies"
+    />
     <p class="text-center">
       Ingredients: <br />
       2 cups sugar <br />
