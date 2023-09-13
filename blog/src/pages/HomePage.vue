@@ -17,7 +17,7 @@
       marginheight="0"
       scrolling="no"
       frameborder="0"
-      src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=tabaron-20&language=en_US&marketplace=amazon&region=US&placement=B0B1MCRR88&asins=B0B1MCRR88&linkId=755dfbf056f5fbb67ab77201f79852de&show_border=true&link_opens_in_new_window=true"
+      src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=tabaron-20&language=en_US&marketplace=amazon&region=US&placement=B079Q671Q5&asins=B079Q671Q5&linkId=122b255ddf9f7ada928e9443015a85ba&show_border=true&link_opens_in_new_window=true"
     ></iframe>
   </div>
 </template>
