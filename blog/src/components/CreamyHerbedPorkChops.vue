@@ -28,7 +28,7 @@
       chops to skillet and heat through. To serve, spoon sauce over chops.
       <br /><br />
       Note: I like to substitute steak for the pork chops sometimes. <br />
-      The sauce goes well over pasta. Double the recipe to mix with 16 oz pasta. 
+      The sauce goes well over pasta. Double the recipe to mix with 16 oz pasta.
       <br />
     </p>
     <button class="btn btn-primary" @click="goBack">Back to Recipes</button>
