@@ -22,10 +22,10 @@
       skillet cook chops in butter over medium heat for 5 minutes. Turn chops
       and add carrot. Cook for 5-7 minutes more or until no pink remains. Remove
       chops, reserving drippings and carrot. <br />
-      For sauce, stir parsley; flour; basil; bouillon
-      granules; and ¼ tsp pepper into drippings and carrot. Add milk all at
-      once. Cook and stir until thickened and bubbly. Stir in water. Return
-      chops to skillet and heat through. To serve, spoon sauce over chops.
+      For sauce, stir parsley; flour; basil; bouillon granules; and ¼ tsp pepper
+      into drippings and carrot. Add milk all at once. Cook and stir until
+      thickened and bubbly. Stir in water. Return chops to skillet and heat
+      through. To serve, spoon sauce over chops.
       <br /><br />
       Note: I like to substitute steak for the pork chops sometimes. <br />
       The sauce goes well over pasta. Double the recipe to mix with 16 oz pasta.
