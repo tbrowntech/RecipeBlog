@@ -1,6 +1,18 @@
 <template>
   <div class="container mt-4">
     <h1 class="text-center mb-4 text-aqua">Recipe Blog</h1>
+    <!-- 
+    <div class="search-bar ml-auto mt-2">
+      <input
+        type="text"
+        placeholder="Search Recipes"
+        class="form-control"
+        v-model="searchQuery"
+        @input="performSearch"
+        @keyup.enter="performSearch"
+      />
+      <button class="btn btn-primary" @click="performSearch">Search</button>
+    </div> -->
     <div class="row">
       <div class="card-grid">
         <div class="col-md-4 mb-4" v-for="post in blogPosts" :key="post.id">
@@ -89,9 +101,30 @@ export default {
           imageFileName: "NoBakeCookies.jpg",
           routeName: "NoBakeCookies",
         },
+        {
+          id: 8,
+          title: "Chicken Noodle Soup With Parmesan",
+          excerpt:
+            "A quick and easy soup that is also delicous, great for chilly weather",
+          imageFileName: "ChickenNoodleSoup.png",
+          routeName: "ChickenNoodleSoup",
+        },
       ],
       selectedPost: null,
+      searchQuery: "", // Store the search query
     };
+  },
+  computed: {
+    filteredBlogPosts() {
+      // Filter the blogPosts array based on the search query
+      const query = this.searchQuery.toLowerCase();
+      return this.blogPosts.filter((post) => {
+        return (
+          post.title.toLowerCase().includes(query) ||
+          post.excerpt.toLowerCase().includes(query)
+        );
+      });
+    },
   },
   methods: {
     openModal(post) {
@@ -99,6 +132,10 @@ export default {
     },
     closeModal() {
       this.selectedPost = null;
+    },
+    performSearch() {
+      // The search is handled by the computed property 'filteredBlogPosts'
+      // based on the 'searchQuery', so no specific action is needed here.
     },
   },
 };

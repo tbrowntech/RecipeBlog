@@ -5,6 +5,7 @@
       <router-link class="mx-2 text-aqua" to="/about">About</router-link> |
       <router-link class="ml-2 text-aqua" to="/recipes">Recipes</router-link>
     </nav>
+
     <router-view />
   </div>
 </template>

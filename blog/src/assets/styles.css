@@ -73,6 +73,17 @@ body {
   border-radius: 15px;
 }
 
+.search-bar {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+
+/* You can add additional styling for the input element if needed */
+.search-bar input {
+  width: 200px; /* Adjust the width as desired */
+}
+
 
 @media screen and (max-width: 768px) {
   .card-grid {

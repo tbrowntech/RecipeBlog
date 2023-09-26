@@ -8,7 +8,7 @@
     />
     <p class="text-center">
       Ingredients: <br />
-      1 evaporated milk <br />
+      1 12 oz can evaporated milk <br />
       ½ cup butter <br />
       2 tablespoons cream cheese <br />
       1 – 1½ cup fresh parmesan cheese <br />
