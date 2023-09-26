@@ -12,8 +12,8 @@
       1 teaspoon garlic powder <br />
       ½ teaspoon salt <br />
       ¼ teaspoon pepper <br />
-      6 oz pasta <br />
-      2 cans cooked chicken <br />
+      6oz pasta <br />
+      2 10oz cans cooked chicken <br />
       ½ cup carrots (sliced) <br />
       ½ cup parmesan cheese<br /><br />
       Instructions: <br />
