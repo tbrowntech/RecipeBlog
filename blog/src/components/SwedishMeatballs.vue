@@ -7,7 +7,10 @@
       alt="Swedish Meatballs"
     />
     <p class="text-center">
-      Sauce: <br />
+      Estimated prep time: 5 minutes <br />
+      Estimated cook time: 15 minutes <br />
+      <br />
+      <u>Ingredients (Sauce):</u> <br />
       2 cups beef stock <br />
       2 cups evaporated milk <br />
       6 tablespoons flour <br />

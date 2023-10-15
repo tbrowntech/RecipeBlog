@@ -7,7 +7,7 @@
       alt="Oatmeal Chocolate Chip Cookies"
     />
     <p class="text-center">
-      Ingredients: <br />
+      <u>Ingredients:</u> <br />
       1 cup butter <br />
       ¾ cup dark brown sugar <br />
       ½ cup white sugar <br />

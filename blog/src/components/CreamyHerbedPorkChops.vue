@@ -7,7 +7,7 @@
       alt="Creamy Herbed Porkchops"
     />
     <p class="text-center">
-      Ingredients: <br />
+      <u>Ingredients:</u> <br />
       4 pork chops, cut ¾" thick <br />
       1 tablespoon butter <br />
       1/3 cup finely chopped carrot <br />

@@ -7,7 +7,7 @@
       alt="Alfredo Sauce"
     />
     <p class="text-center">
-      Ingredients: <br />
+      <u>Ingredients:</u> <br />
       1 12 oz can evaporated milk <br />
       ½ cup butter <br />
       2 tablespoons cream cheese <br />

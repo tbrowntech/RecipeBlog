@@ -7,7 +7,7 @@
       alt="No Bake Cookies"
     />
     <p class="text-center">
-      Ingredients: <br />
+      <u>Ingredients:</u> <br />
       2 cups sugar <br />
       ¼ cup cocoa <br />
       ½ cup milk <br />

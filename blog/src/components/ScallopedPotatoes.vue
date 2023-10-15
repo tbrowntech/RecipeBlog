@@ -7,7 +7,7 @@
       alt="Scalloped Potatoes"
     />
     <p class="text-center">
-      Ingredients: <br />
+      <u>Ingredients:</u> <br />
       ½ cup chopped onion <br />
       4 tablespoons butter <br />
       4 tablespoons all-purpose flour <br />

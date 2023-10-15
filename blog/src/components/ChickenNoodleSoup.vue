@@ -7,7 +7,7 @@
       alt="Chicken Noodle Soup"
     />
     <p class="text-center">
-      Ingredients: <br />
+      <u>Ingredients:</u> <br />
       2 cups chicken broth <br />
       1 teaspoon garlic powder <br />
       ½ teaspoon salt <br />

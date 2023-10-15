@@ -7,7 +7,7 @@
       alt="Air Fryer Meatballs"
     />
     <p class="text-center">
-      Ingredients: <br />
+      <u>Ingredients:</u> <br />
       1 pound ground meat (I use turkey) <br />
       ½ cup bread crumbs <br />
       ½ cup grated parmesan cheese <br />
