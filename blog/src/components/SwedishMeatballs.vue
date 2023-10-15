@@ -22,7 +22,7 @@
       16 ounces meatballs <br /><br />
     </p>
     <p class="left-align">
-      Instructions: <br />
+      <u>Instructions:</u> <br />
       Whisk together stock, milk, flour, soy sauce, worcestershire sauce, pepper
       and rosemary in a large saucepan over medium heat, until smooth. Cook,
       stirring occasionally, until thickened, about 10-15 minutes. Taste and
@@ -30,32 +30,39 @@
       pasta.
     </p>
     <br />
-    <p class="left-align">
-      I always loved eating swedish meatballs while growing up. They were one of
-      my favorite recipes that my mother prepared. She hated doing it, mostly
-      because she made the meatballs from scratch and that took a ton of work.
-    </p>
+    <div class="border border-dark border-padding">
+      <h4 class="text-center"><u>Story</u></h4>
+      <p class="left-align">
+        I always loved eating swedish meatballs while growing up. They were one
+        of my favorite recipes that my mother prepared. She hated doing it,
+        mostly because she made the meatballs from scratch and that took a ton
+        of work.
+      </p>
+      <br />
+      <p class="left-align">
+        She always wanted to make sure that we got enough food while growing up
+        so she used egg noodles to add in some extra carbs. The creamy sauce
+        poured over the egg noodles, mixed in with the savory meatballs was
+        always to die for in my opinion.
+      </p>
+      <p class="left-align">
+        I have tried a couple different recipes over the years, including the
+        one that she supposedly used during my childhood years. I tried some
+        frozen, pre-made meals as well. Nothing every turned out quite as I
+        remembered it.
+      </p>
+      <p class="left-align">
+        I decided to find a recipe on my own. I found one but it just wasn't
+        quite right, so I tweaked it to my own liking. That recipe, swedish
+        meatballs, is the recipe above. The sauce is so creamy and delectable.
+        Almost any type of noodle can be used, such as: penne, rigatoni, elbow,
+        fettucine, egg noodles, etc. I recommend this to anyone who is looking
+        for a delicious, mouthwatering meal.
+      </p>
+    </div>
     <br />
-    <p class="left-align">
-      She always wanted to make sure that we got enough food while growing up so
-      she used egg noodles to add in some extra carbs. The creamy sauce poured
-      over the egg noodles, mixed in with the savory meatballs was always to die
-      for in my opinion.
-    </p>
-    <p class="left-align">
-      I have tried a couple different recipes over the years, including the one
-      that she supposedly used during my childhood years. I tried some frozen,
-      pre-made meals as well. Nothing every turned out quite as I remembered it.
-    </p>
-    <p class="left-align">
-      I decided to find a recipe on my own. I found one but it just wasn't quite
-      right, so I tweaked it to my own liking. That recipe, swedish meatballs,
-      is the recipe above. The sauce is so creamy and delectable. Almost any
-      type of noodle can be used, such as: penne, rigatoni, elbow, fettucine,
-      egg noodles, etc. I recommend this to anyone who is looking for a
-      delicious, mouthwatering meal.
-    </p>
     <button class="btn btn-primary" @click="goBack">Back to Recipes</button>
+    <br />
   </div>
 </template>
 

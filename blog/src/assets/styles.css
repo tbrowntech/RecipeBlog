@@ -17,6 +17,9 @@ body {
   margin-top: 20px;
   border-radius: 5px;
 }
+.border-padding {
+  padding: 10px;
+}
 
 .card-body {
   width: 100%;
