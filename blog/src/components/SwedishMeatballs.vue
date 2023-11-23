@@ -38,7 +38,6 @@
         mostly because she made the meatballs from scratch and that took a ton
         of work.
       </p>
-      <br />
       <p class="left-align">
         She always wanted to make sure that we got enough food while growing up
         so she used egg noodles to add in some extra carbs. The creamy sauce
