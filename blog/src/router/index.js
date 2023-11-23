@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { inject } from "@vercel/analytics";
 import HomePage from "../pages/HomePage.vue";
 import AboutPage from "../pages/AboutPage.vue";
 import RecipesPage from "../pages/RecipesPage.vue";
@@ -12,8 +11,6 @@ import ScallopedPotatoes from "../components/ScallopedPotatoes.vue";
 import OatmealCookies from "../components/OatmealCookies.vue";
 import NoBakeCookies from "../components/NoBakeCookies.vue";
 import ChickenNoodleSoup from "../components/ChickenNoodleSoup.vue";
-
-inject();
 
 const routes = [
   {
