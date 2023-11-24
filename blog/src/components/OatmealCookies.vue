@@ -31,6 +31,26 @@
         with raisins. <br />
       </p>
     </div>
+    <div class="border border-dark border-padding">
+      <h4 class="text-center"><u>Oatmeal Cookies Story</u></h4>
+      <p class="left-align">
+        Oatmeal cookies were something that I didn't really crave a lot growing
+        up, but when they were made I never turned them down. I love the oatmeal
+        in the cookies, along with the peanut butter I don't have to have very
+        many to feel filled. They aren't my go-to cookie, but these are
+        delicious and filling, and a must-have in my recipe arsenal.
+      </p>
+      <p class="left-align">
+        I don't mind eating cookies, but I'm not a huge fan of sugar. Whenever I
+        can use a cookie recipe that uses a little less sugar I jump at the
+        opportunity. This recipe still have plenty of sugar, but instead of all
+        white sugar, there is some brown mixed in. Some addition of cinnamon to
+        these oatmeal cookies really enhances the flavor as well. Whenever less
+        sugar is used, adding some cinnamon can help to enhance the flavor. The
+        extra bite of the added cinnamon flavor really makes these oatmeal
+        cookies rather enjoyable.
+      </p>
+    </div>
     <div>
       <br />
       <button class="btn btn-primary" @click="goBack">Back to Recipes</button>
