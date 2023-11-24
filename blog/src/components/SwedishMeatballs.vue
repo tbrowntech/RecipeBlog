@@ -26,8 +26,13 @@
       Whisk together stock, milk, flour, soy sauce, worcestershire sauce, pepper
       and rosemary in a large saucepan over medium heat, until smooth. Cook,
       stirring occasionally, until thickened, about 10-15 minutes. Taste and
-      adjust seasonings to desired taste. Stir in cooked meatballs and desired
-      pasta.
+      adjust seasonings to desired taste. Stir in cooked
+      <a
+        href="https://taylor-recipe-blog.vercel.app/airfryermeatballs"
+        target="_blank"
+        >meatballs</a
+      >
+      and desired (cooked) pasta.
     </p>
     <br />
     <div class="border border-dark border-padding">
@@ -47,16 +52,17 @@
       <p class="left-align">
         I have tried a couple different recipes over the years, including the
         one that she supposedly used during my childhood years. I tried some
-        frozen, pre-made meals as well. Nothing every turned out quite as I
-        remembered it.
+        frozen, pre-made meals as well. Nothing every turned out quite like I
+        was expecting it to. None of those recipes or meals every satisfied me
+        because they just weren't quite right.
       </p>
       <p class="left-align">
-        I decided to find a recipe on my own. I found one but it just wasn't
-        quite right, so I tweaked it to my own liking. That recipe, swedish
-        meatballs, is the recipe above. The sauce is so creamy and delectable.
-        Almost any type of noodle can be used, such as: penne, rigatoni, elbow,
-        fettucine, egg noodles, etc. I recommend this to anyone who is looking
-        for a delicious, mouthwatering meal.
+        I decided to find a recipe that I could make my own. I found one but it
+        needed some tweaking so I changed it to make it my own. That recipe,
+        swedish meatballs, is the recipe above. The sauce is so creamy and
+        delectable. Almost any type of noodle can be used, such as: penne,
+        rigatoni, elbow, fettucine, egg noodles, etc. I recommend this to anyone
+        who is looking for a delicious, mouthwatering meal.
       </p>
     </div>
     <br />
