@@ -2,6 +2,10 @@ body {
   background-color: #dde2e2;
 }
 
+.recipe {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .text-aqua {
     color: #30bfbf;
   }
