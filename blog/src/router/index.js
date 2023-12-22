@@ -12,6 +12,7 @@ import ScallopedPotatoes from "../components/ScallopedPotatoes.vue";
 import OatmealCookies from "../components/OatmealCookies.vue";
 import NoBakeCookies from "../components/NoBakeCookies.vue";
 import ChickenNoodleSoup from "../components/ChickenNoodleSoup.vue";
+import BreakfastChili from "../components/BreakfastChili.vue";
 
 inject();
 
@@ -78,6 +79,11 @@ const routes = [
     path: "/chickennoodlesoup",
     name: "ChickenNoodleSoup",
     component: ChickenNoodleSoup,
+  },
+  {
+    path: "/breakfastchili",
+    name: "BreakfastChili",
+    component: BreakfastChili,
   },
 ];
 

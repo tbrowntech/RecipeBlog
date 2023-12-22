@@ -109,6 +109,14 @@ export default {
           imageFileName: "ChickenNoodleSoup.png",
           routeName: "ChickenNoodleSoup",
         },
+        {
+          id: 9,
+          title: "Breakfast Chili",
+          excerpt:
+            "A delicious chili that is good anytime, but excellent for breakfast",
+          imageFileName: "BreakfastChili.png",
+          routeName: "BreakfastChili",
+        },
       ],
       selectedPost: null,
       searchQuery: "", // Store the search query
