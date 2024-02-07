@@ -16,7 +16,7 @@
     <br />
     <hr />
     <br />
-    <h2 class="text-aqua text-center">Recommended Products</h2>
+    <!--<h2 class="text-aqua text-center">Recommended Products</h2>
     <br />
     <hr />
     <br />
@@ -109,6 +109,6 @@
           src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=tabaron-20&language=en_US&marketplace=amazon&region=US&placement=B005KCG6CE&asins=B005KCG6CE&linkId=79ea25165c8c49708c0e9e55b4e2783b&show_border=true&link_opens_in_new_window=true"
         ></iframe>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
